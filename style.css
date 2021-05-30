@@ -1,0 +1,54 @@
+/* Background colour */
+body {
+  background-image: url(./images/lubomirkin-j_BHh6vNOv8-unsplash.jpg);
+}
+
+/* minion image */
+img {
+  margin:0rem 1rem 0rem 1rem;
+}
+
+/* Heading */
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* Para */
+p {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color: saddlebrown;
+}
+
+/* Textarea */
+textarea {
+  background-color: khaki;
+  color: black;
+  font-weight: bolder;
+  border-radius: 1rem;
+  border: 2px solid orange;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  background-color: orangered;
+  font-weight: bolder;
+  border-radius: 1rem;
+}
+
+/* Output */
+#output {
+  border: 2px solid orange;
+  background-color: khaki;
+  border-radius: 1rem;
+  height: 30vh;
+  width: 30vh;
+  margin: 1rem 0rem 0rem 0.5rem;
+  padding: 2rem;
+}

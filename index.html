@@ -5,27 +5,30 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Banana Speaks</title>
-<style>
- #output{
-  border: 1px solid black;
-  height: 10vh;
-  width: 50%;
-  margin: 1rem;
-  padding: 2rem;
+ <title>Minion Speaks</title>
+ <link rel="stylesheet" href="style.css">
+ <style>
   
- }
-</style>
+ </style>
 </head>
 
 <body>
- <h1>This is vanilla js app</h1>
- <textarea id="txt-translate" cols="30" rows="10" placeholder="Enter your sentence" style="padding: 0.5rem;"></textarea>
 
- <button id="translate-button">Translate</button>
- 
+ <!-- Heading -->
+
+ <h1> <img src="./images/minion.png" alt="minion"> Minion Speaks </h1>
+ <p>Convert your sentence in Banana Language.</p>
+<div class="content">
+ <!-- Input  -->
+ <textarea id="txt-translate" cols="30" rows="10" placeholder="Enter your sentence in English." style="padding: 15px;"></textarea>
+
+ <!-- Button -->
+ <button id="translate-button">🍌Translate🍌</button>
+
+
+ <!-- Output -->
  <div id="output"></div>
-
+</div>
  <script src="app.js" type="text/javascript"></script>
 
 
