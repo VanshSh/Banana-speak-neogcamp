@@ -6,12 +6,12 @@
   What they Speak ? <br/> 
   How they speak ? <br/> </p>
   
-<p>Don't worry. Here is <b> Minion Speak </b> translator for your help. Now translate in "Banana Language" and speak like Minios. </p>  
+<p>Don't worry. Here is <b> Minion Speak </b> translator for your help. Now translate in "Banana Language" and speak like Minions. </p>  
 
 
-<img src="https://user-images.githubusercontent.com/81517284/121346564-e5c7cb00-c943-11eb-8120-ebc7797f1950.gif" width="50px">
-<h3> Use this tra</h3>
-[Banana Langugae](https://bananalangage.netlify.app/)
+<img src="https://user-images.githubusercontent.com/81517284/121346564-e5c7cb00-c943-11eb-8120-ebc7797f1950.gif" width="950px">
+
+<h3> Use this translator:</h3> <a href="https://bananalangage.netlify.app/">Banana Language</a>
 
 
 
@@ -19,6 +19,6 @@
 1. HTML<br/>
 2. CSS<br/>
 3. JavaScript<br/>
-![Minion](https://user-images.githubusercontent.com/81517284/121346564-e5c7cb00-c943-11eb-8120-ebc7797f1950.gif)  
+
 
   
