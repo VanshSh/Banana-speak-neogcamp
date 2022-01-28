@@ -1,86 +1,121 @@
-/* Background colour */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@400;700&display=swap');
+
 body {
-  background-image: url(./images/lubomirkin-j_BHh6vNOv8-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(233, 231, 108);
 }
 
-/* minion image */
-img {
-  margin:0rem 1rem 0rem 1rem;
-  animation-name: minion;
-  animation-duration:5s;
-  animation-iteration-count: infinite;
+header {
+  background-color: rgb(247, 160, 88);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-@keyframes minion {
-  0%{
-    transform: scale(0.5);
-    animation-timing-function: ease;
-  }
-  100%{
-    transform: scale(1.5);
-    animation-timing-function: ease;
-  }
-  
+.header-image {
+  width: 50%;
+  min-width: 250px;
+  max-width: 500px;
 }
 
-main{
-  text-align: center;
+.header-title {
+  display: flex;
+  color: brown;
+  font-family: 'Lobster', cursive;
+  justify-content: center;
+  align-items: center;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links button {
+  background-color: rgb(132, 164, 224);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin: 2px 1rem;
+  cursor: pointer;
+}
 
-/* Heading */
-h1 {
-  color: purple;
-  text-align: center;
-  font-size: 50px;
-  font-family: cursive;
+.links button a {
+  font-size: larger;
+  text-decoration: none;
   font-weight: bold;
 }
 
-/* Para */
-p {
-  text-align: center;
-  text-decoration: underline;
-  font-weight: bold;
-  color: saddlebrown;
+.links button:hover {
+  background-color: rgb(154, 183, 212);
 }
 
-/* Textarea */
-textarea {
-  background-color: khaki;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.textarea {
+  width: 50%;
+  border: none;
+  min-width: 200px;
+  font-size: larger;
+  font-family: 'Outfit', sans-serif;
   color: black;
-  font-weight: bold;
-  font-size: 15px;
-  font-weight: bolder;
-  border-radius: 1rem;
-  border: 2px solid orange;
-  margin-bottom: 15px;
-}
-
-/* Button */
-button {
-  background-color: orangered;
-  font-weight: bolder;
-  border-radius: 1rem;
-  margin: 5px;
-
-}
-
-/* Output */
-#output {
-  border: 2px solid orange;
-  background-color: khaki;
-  border-radius: 1rem;
+  padding-top: 2em;
+  font-weight: 600;
   text-align: center;
-  height: auto;
-  width: 50%;  
-  margin: auto;
-  font-weight: 900;
-  font-size: 30px;
-  padding: 2rem;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  resize: none;
+  background-color: rgb(247, 160, 88);
 }
 
+textarea:focus {
+  outline: none;
+}
 
+::placeholder {
+  font-size: larger;
+  font-family: Lobster, cursive;
+
+  color: grey;
+  text-align: center;
+}
+
+.translate-button {
+  background-color: rgb(132, 164, 224);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 1rem;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+  color: blue;
+}
+
+.translate-button:hover {
+  background-color: rgb(201, 201, 85);
+  color: brown;
+}
+
+.output-result {
+  width: 50%;
+  height: 100px;
+  min-width: 200px;
+  font-size: larger;
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  padding: 1rem 0 0 0;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  background-color: rgb(247, 160, 88);
+}

@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minion Speaks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Minion Speaks</title>
- <link rel="stylesheet" href="style.css">
- <style>
+  <body>
+    <header>
+      <div class="image-holder">
+        <img class="header-image" src="./images/minion.png" alt="Minions" />
+      </div>
+      <h1 class="header-title">Minion Speaks</h1>
+    </header>
 
- </style>
-</head>
+    <main>
+      <section class="links">
+        <button><a href="#">GitHub Code</a></button>
+        <button><a href="#">Portfolio</a></button>
+      </section>
 
-<body>
+      <section class="wrapper">
+        <textarea
+          class="textarea"
+          placeholder="Enter your message here..."
+          cols="10"
+          rows="5"
+          id="inputTxt"
+        ></textarea>
+        <button id="btn" class="translate-button">🍌 Translate 🍌</button>
 
- <!-- Heading -->
- <header>
-  <h1> <img src="./images/minion.png" alt="minion"> Minion Speaks </h1>
-  <p>Convert your sentence in Banana Language.</p>
- </header>
+        <article class="output-result">
+          <p id="outputTxt"></p>
+        </article>
+      </section>
+    </main>
 
- <main>
-  <!-- Input  -->
-  <textarea id="txt-translate" cols="30" rows="10" placeholder="Enter your sentence in English."
-   style="padding: 15px;"></textarea>
-
-  <!-- Button -->
-  <button id="translate-button">🍌Translate🍌</button>
- </main>
-
- 
-  <!-- Output -->
-  <div id="output"></div>
- 
-
-
-
- <script src="app.js" type="text/javascript"></script>
-
-
-
-
-</body>
-
+    <script src="app.js" type="text/javascript"></script>
+  </body>
 </html>
