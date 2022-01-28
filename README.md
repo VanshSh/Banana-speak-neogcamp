@@ -5,7 +5,7 @@ It translates the input given by user to the **_Minion Language_**.
 
 This app use simple [Fun translation API](https://api.funtranslations.com/) which helps in translating the language.
 
-## [LIVE APP]()
+## [LIVE APP](https://bananalangage.netlify.app/)
 ---
 ![Demo Image](./images/demo.png)
 
